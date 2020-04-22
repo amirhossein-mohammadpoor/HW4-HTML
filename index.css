@@ -1,5 +1,12 @@
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('./assets/Fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: normal;
+}
+
 body{
     margin: 0;
+    font-family: Poppins-Medium;
 }
 
 * {
@@ -80,8 +87,14 @@ header .content .start .texts {
     padding-top: 18px;
 }
 
+header .content .start .texts h1 {
+    margin: 0;
+}
+
 header .content .start .texts p {
     font-size: 14pt;
+    margin: 0;
+    margin-bottom: 7px;
 }
 
 header .content .start .texts button {
@@ -90,6 +103,7 @@ header .content .start .texts button {
     border: 1px white solid;
     outline: 0;
     padding: 16px 40px;
+    margin-top: 15px;
 }
 
 header .content .start .picture {
@@ -232,4 +246,30 @@ main .list .watch-video {
 
 .testimonial .chip img {
     margin-bottom: -60px;
+}
+
+.about-us {
+    padding: 0px 200px ;
+}
+
+.about-us .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px; 
+}
+
+.about-us .title span {
+    font-size: 14pt;
+}
+
+.about-us .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-us .main p {
+    font-size: 12pt;
+    margin: 0;
 }

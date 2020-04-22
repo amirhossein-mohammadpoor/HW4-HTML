@@ -5,3 +5,61 @@ body{
 * {
     box-sizing: border-box;
 }
+
+.top-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 700px;
+    height: 600px;
+    z-index: -1;
+}
+
+.contain {
+    width: 100%;
+    padding: 30px 100px 0px 100px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .nav-buttons {
+    margin-right: 50px;
+}
+
+nav .nav-buttons button {
+    background-color: transparent;
+    color:white;
+    border: 0;
+    border-radius: 5px;
+    outline: 0;
+    cursor: pointer;
+    font-size: 10pt;
+}
+
+nav .sign-in {
+    background-color: transparent;
+    color:white;
+    border: 1px white solid;
+    border-radius: 5px;
+    outline: 0;
+    padding: 11px 25px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 12pt;
+}
+
+nav .sign-up {
+    background-color: black;
+    color:white;
+    border: 0;
+    border-radius: 5px;
+    outline: 0;
+    padding: 13px 25px;
+    cursor: pointer;
+    font-size: 12pt;
+}

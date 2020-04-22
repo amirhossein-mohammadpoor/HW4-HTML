@@ -127,6 +127,7 @@ header .content .tags {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    margin-top: 50px;
 }
 
 header .content .tags div{
@@ -363,3 +364,62 @@ main .list .watch-video {
     border: 0;
     border-left: 1px solid white;
 }
+
+footer {
+    padding: 0px 200px;
+}
+
+footer hr{
+    border: 1px solid rgb(221,231,241);
+}
+
+footer .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 60px 0px 50px 0px;
+}
+
+footer .text {
+    margin-right: 80px;
+    width: 40%;
+}
+
+footer .text p {
+    margin: 0;
+    font-size: 13pt;
+}
+
+footer .link-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul h3 {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+footer ul a{
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+footer .design-by{
+    text-align: center;
+}
+
+footer .design-by a{
+    color: red;
+}
+

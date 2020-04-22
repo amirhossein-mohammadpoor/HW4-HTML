@@ -17,7 +17,7 @@ body{
 
 .contain {
     width: 100%;
-    padding: 30px 100px 0px 100px;
+    padding: 30px 150px 0px 150px;
 }
 
 nav{
@@ -62,4 +62,40 @@ nav .sign-up {
     padding: 13px 25px;
     cursor: pointer;
     font-size: 12pt;
+}
+
+header {
+    margin-top: 90px;
+}
+
+header .start {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+header .start .texts {
+    width: 50%;
+    padding-right: 60px;
+    padding-top: 18px;
+}
+
+header .start .texts p {
+    font-size: 14pt;
+}
+
+header .start .texts button {
+    background-color: rgb(67,43,153);
+    color: white;
+    border: 1px white solid;
+    outline: 0;
+    padding: 16px 40px;
+}
+
+header .start .picture {
+    width: 50%;
+}
+
+header .start img {
+    width: 100%;
 }

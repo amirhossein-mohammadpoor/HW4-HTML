@@ -15,23 +15,23 @@ body{
     z-index: -1;
 }
 
-.contain {
+header {
     width: 100%;
     padding: 30px 150px 0px 150px;
 }
 
-nav{
+header nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
 }
 
-nav .nav-buttons {
+header nav .nav-buttons {
     margin-right: 50px;
 }
 
-nav .nav-buttons button {
+header nav .nav-buttons button {
     background-color: transparent;
     color:white;
     border: 0;
@@ -41,7 +41,7 @@ nav .nav-buttons button {
     font-size: 10pt;
 }
 
-nav .sign-in {
+header nav .sign-in {
     background-color: transparent;
     color:white;
     border: 1px white solid;
@@ -53,7 +53,7 @@ nav .sign-in {
     font-size: 12pt;
 }
 
-nav .sign-up {
+header nav .sign-up {
     background-color: black;
     color:white;
     border: 0;
@@ -64,27 +64,27 @@ nav .sign-up {
     font-size: 12pt;
 }
 
-header {
+header .content {
     margin-top: 90px;
 }
 
-header .start {
+header .content .start {
     width: 100%;
     display: flex;
     flex-direction: row;
 }
 
-header .start .texts {
+header .content .start .texts {
     width: 50%;
     padding-right: 60px;
     padding-top: 18px;
 }
 
-header .start .texts p {
+header .content .start .texts p {
     font-size: 14pt;
 }
 
-header .start .texts button {
+header .content .start .texts button {
     background-color: rgb(67,43,153);
     color: white;
     border: 1px white solid;
@@ -92,10 +92,40 @@ header .start .texts button {
     padding: 16px 40px;
 }
 
-header .start .picture {
+header .content .start .picture {
     width: 50%;
+    position: relative;
 }
 
-header .start img {
+header .content .start .image1 {
     width: 100%;
+}
+
+header .content .start .image2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+header .content .tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header .content .tags div{
+    width: 24%;
+}
+
+header .content .tags div .active {
+    background-color: rgb(67,43,153);
+}
+
+header .content .tags button {
+    background-color: white;
+    border: 1px solid rgb(67,43,153);
+    border-radius: 5px;
+    outline: 0;
 }

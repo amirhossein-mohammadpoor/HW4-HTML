@@ -315,3 +315,51 @@ main .list .watch-video {
 .recent-posts .posts .card .active {
     color: rgb(67,43,153); 
 }
+
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 200px 200px; 
+    background-color: rgb(67,43,153);
+    border-radius: 10px;
+    padding: 115px 0px;
+}
+
+.email .text {
+    margin-right: 70px;
+}
+
+.email .text p {
+    margin: 0;
+    color: white;
+    font-size: 14pt;
+}
+
+.email .send-email {
+    position: relative;
+    width: 270px;
+}
+
+.email input {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: 0;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+.email input::placeholder {
+    color: white;
+}
+
+.email button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    border: 0;
+    border-left: 1px solid white;
+}

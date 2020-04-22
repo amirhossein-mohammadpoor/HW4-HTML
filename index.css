@@ -154,9 +154,10 @@ main {
     background: linear-gradient(to bottom,
         white
         ,rgb(235,232,240));
+    border-radius:0% 0% 85% 85% / 30% ;
     width: 100%;
     margin-top: 200px;
-    padding: 0px 200px;
+    padding: 0px 200px 100px 200px;
     display: flex;
     flex-direction: row;
 }
@@ -182,12 +183,14 @@ main .list {
 main .list h1 {
     margin: 25px 0px;
     font-size: 30pt;
+    padding-left: 0px;
 }
 
 main .list ul {
     margin: 0;
     font-size: 16pt;
-    padding-left: 20px;
+    list-style-type: none;
+    padding: 0;
 }
 
 main .list li {
@@ -208,6 +211,7 @@ main .list .know-more {
 main .list .watch-video {
     color: rgb(67,43,153);
     background: transparent;
+    position: relative;
     border: 0;
     border-radius: 5px;
     outline: 0;
@@ -215,6 +219,14 @@ main .list .watch-video {
     padding: 14px 32px;
     font-weight: bold;
     cursor: pointer;
+}
+
+main .list .watch-video span {
+    position: absolute;
+    top:50%;
+    right: -5px;
+    transform: translate(0,-50%);
+    font-size: 25px;
 }
 
 .testimonial {

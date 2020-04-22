@@ -24,7 +24,7 @@ body{
 
 header {
     width: 100%;
-    padding: 30px 150px 0px 150px;
+    padding: 30px 200px 0px 200px;
 }
 
 header nav {
@@ -150,7 +150,7 @@ main {
         ,rgb(235,232,240));
     width: 100%;
     margin-top: 200px;
-    padding: 0px 150px 0px 150px;
+    padding: 0px 200px;
     display: flex;
     flex-direction: row;
 }
@@ -180,7 +180,7 @@ main .list h1 {
 
 main .list ul {
     margin: 0;
-    font-size: 17pt;
+    font-size: 16pt;
     padding-left: 20px;
 }
 
@@ -249,7 +249,7 @@ main .list .watch-video {
 }
 
 .about-us {
-    padding: 0px 200px ;
+    padding: 0px 200px;
 }
 
 .about-us .title {
@@ -257,6 +257,10 @@ main .list .watch-video {
     flex-direction: column;
     align-items: center;
     margin-top: 30px; 
+}
+
+.about-us .title h1 {
+    margin: 10px 0px;
 }
 
 .about-us .title span {
@@ -272,4 +276,42 @@ main .list .watch-video {
 .about-us .main p {
     font-size: 12pt;
     margin: 0;
+}
+
+.recent-posts {
+    padding: 0px 200px;
+}
+
+.recent-posts .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.recent-posts .title h1 {
+    margin: 10px 0px;
+}
+
+.recent-posts .title p {
+    margin: 0;
+    font-size: 14pt;
+}
+
+.recent-posts .posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.recent-posts .posts .card{
+    
+}
+
+.recent-posts .posts .card h2 {
+    margin: 0;
+}
+
+.recent-posts .posts .card .active {
+    color: rgb(67,43,153); 
 }

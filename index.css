@@ -182,6 +182,7 @@ main .list .know-more {
     outline: 0;
     padding: 14px 32px;
     font-size: 10pt;
+    cursor: pointer;
 }
 
 main .list .watch-video {
@@ -193,5 +194,42 @@ main .list .watch-video {
     font-size: 10pt;
     padding: 14px 32px;
     font-weight: bold;
+    cursor: pointer;
 }
 
+.testimonial {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial .title span {
+    font-size: 14pt;
+}
+
+.testimonial .chip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.testimonial .chip b {
+    color: rgb(67,43,153);
+    margin-bottom: 20px;
+}
+
+.testimonial .chip span {
+    color: rgb(64,95,150);
+}
+
+.testimonial .chip img {
+    margin-bottom: -60px;
+}
